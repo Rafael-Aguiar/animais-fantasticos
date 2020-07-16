@@ -5,8 +5,8 @@ import initAnimacaoScroll from './modules/anima-scroll.js';
 import initModal from './modules/modal.js';
 import initTooltip from './modules/tooltip.js';
 import initDropdownMenu from './modules/initDropdownMenu.js';
-import outsideClick from './modules/outsideclick.js';
 import initMobileMenu from './modules/mobile-menu.js';
+import initAnimaNumeros from './modules/anima-numeros.js';
 
 initTabNav();
 initAccordion();
@@ -16,3 +16,4 @@ initModal();
 initTooltip();
 initDropdownMenu();
 initMobileMenu();
+initAnimaNumeros();
