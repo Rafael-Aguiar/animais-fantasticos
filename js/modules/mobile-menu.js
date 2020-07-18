@@ -1,4 +1,4 @@
-import outsideClick from './outsideclick.js';
+import outsideClick from './outside-click.js';
 
 export default function initMobileMenu() {
 
@@ -16,8 +16,8 @@ export default function initMobileMenu() {
     }
 
     
-    eventos.forEach((userEvent) => {menuButton.addEventListener(userEvent, openMenu)})
-    menuButton.addEventListener('click', openMenu);
-
+    eventos.forEach((userEvent) => {
+      menuButton.addEventListener(userEvent, openMenu)
+    })
   }
 }
